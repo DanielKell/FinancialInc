@@ -1,0 +1,73 @@
+// Carousel Section Styling
+
+.carousel-item {
+    max-height: 45vh;
+  
+    img {
+      opacity: 0.4;
+    }
+  
+    .carousel-text {
+      @include desktopCarouselText;
+      font-weight: 700;
+      margin-bottom: 3rem;
+    }
+  }
+  
+  // JQuery Section Styling
+  
+  .jQuery-text {
+    margin: 10px 0px;
+    text-align: center;
+  }
+  
+  // Features Section Styling
+  
+  .features {
+    .container {
+      min-height: 40vh;
+      .row {
+      }
+    }
+  }
+  
+  // Video Section Styling
+  .videos {
+    background-color: $page-secondary-background;
+    padding: 20px 0px;
+  
+    .video-desc {
+      border-left: $primary-box-border;
+      border-right: $primary-box-border;
+      height: 6vw;
+      background-color: white;
+    }
+  }
+  
+  // Disclaimer Section Styling
+  .disclaimer {
+    padding: 10px 0px;
+  }
+  
+  // Media Query: Tablet
+  
+  @media only screen and (max-width: $breakpoint-tablet) {
+    .row {
+      .service {
+        margin-top: 25px;
+      }
+    }
+  }
+  
+  // Media Query: Mobile
+  
+  @media only screen and (max-width: $breakpoint-mobile) {
+    .carousel-item {
+      .carousel-text {
+          @include tabletAndMobileCarouselText;
+      }
+    }
+    h3 {
+      font-size: 22px;
+    }
+  }

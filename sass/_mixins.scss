@@ -1,0 +1,11 @@
+@mixin desktopCarouselText {
+    color: $carousel-text; 
+    font-size: 50px;
+    font-family: $title-font;
+}
+
+@mixin tabletAndMobileCarouselText {
+    color: $carousel-text; 
+    font-size: 34px;
+    font-family: $title-font;
+}

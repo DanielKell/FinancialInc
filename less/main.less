@@ -1,0 +1,32 @@
+/* 
+The only differences between sass and less in my project are with the variables and mixins
+
+Sass Variables: 
+    $breakpoint-tablet: 991px;
+    max-width: $breakpoint-tablet;
+
+Less Variables: 
+    @breakpoint-tablet: 991px;
+    max-width: @breakpoint-tablet
+
+---------------------------------------------------------------
+
+Sass Mixins:
+    @mixin desktopCarouselText {
+        color: $carousel-text; 
+        font-size: 50px;
+        font-family: $title-font;
+    }
+    
+    @include desktopCarouselText;
+
+Less Mixins: 
+    desktopCarouselText() {
+        color: $carousel-text; 
+        font-size: 50px;
+        font-family: $title-font;
+    }
+
+    .desktopCarouselText();
+*/
+

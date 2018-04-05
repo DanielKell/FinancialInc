@@ -1,0 +1,50 @@
+.features,
+.disclaimer,
+.jQuery-section {
+  background-color: rgba(255, 251, 224, 0.21); }
+
+h3 {
+  font-family: "IBM Plex Serif", serif;
+  margin: 10px 0px; }
+
+.carousel-item {
+  max-height: 45vh; }
+  .carousel-item img {
+    opacity: 0.4; }
+  .carousel-item .carousel-text {
+    color: #090538;
+    font-size: 50px;
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 700;
+    margin-bottom: 3rem; }
+
+.jQuery-text {
+  margin: 10px 0px;
+  text-align: center; }
+
+.features .container {
+  min-height: 40vh; }
+
+.videos {
+  background-color: rgba(101, 82, 82, 0.14);
+  padding: 20px 0px; }
+  .videos .video-desc {
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    height: 6vw;
+    background-color: white; }
+
+.disclaimer {
+  padding: 10px 0px; }
+
+@media only screen and (max-width: 991px) {
+  .row .service {
+    margin-top: 25px; } }
+
+@media only screen and (max-width: 767px) {
+  .carousel-item .carousel-text {
+    color: #090538;
+    font-size: 34px;
+    font-family: "IBM Plex Serif", serif; }
+  h3 {
+    font-size: 22px; } }
